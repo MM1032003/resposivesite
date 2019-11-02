@@ -1,0 +1,141 @@
+/* START Main Rulez */
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body {
+    margin      : 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    text-align: center;
+    padding: .8em 1.2em;
+}
+.hide-btn {
+    display: none;
+}
+/* END Main Rulez */
+/* Start Standards */
+p, blockquote {
+    font-size   : .9em;
+    line-height : 1.75em;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    width   : 130px;
+}
+.hide-mobile {
+    display : none;
+}
+header {
+    display : flex;
+    justify-content : space-between;
+}
+.menu {
+    width: 25px;
+    margin-top:45%;
+}
+.server {
+    width   : 70%;
+    margin  : 2em auto 2em 25%;
+}
+.p-draft, h1 {
+    position : relative;
+    z-index  : 3;
+}
+.p-draft {
+    font-size : 1.2em;
+}
+.blue-container {
+    width       : 100%;
+    background  : #00C2FF;
+    color       : white;
+    margin      : 15% 0 0 0;
+    padding : 10% 0% 10% 0%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    transform   : skewY(-2deg);
+}
+.blue-container ul {
+    transform   : skewY(2deg);
+}
+.blue-container ul li {
+    margin      : 8px;
+}
+.icons {
+    width       : 75px;
+}
+.blue-container ul li:nth-child(3) img {
+    width       : 50px;  
+}
+.gray-container {
+    background  : #F6F6F6;
+}
+.gray-container figure:first-child {
+    margin-bottom : 40px;
+    margin-top : 25px;
+}
+.gray-container figcaption {
+    color       : #00C2FF;
+}
+h2 {
+    margin-top  :4%;
+}
+.btn{
+    background: #00CC80;
+    color     : white;
+    display: block;
+    width   : calc(100% - 1em);
+    padding     : .5rem;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.dark-container {
+    width   : 100%;
+    background : #3D444A;
+    color   : white;
+    padding-top : 10px;
+    margin-top: 30px;
+}
+.dark-container ul li {
+    display     : inline-block;
+}
+.dark-container ul li a {
+    color       : #9D9D9D;
+
+}
+nav ul {
+    position: fixed;
+    width   : 60%;
+    top     : 0;
+    right   : 0;
+    background : rgb(36,41,44);
+    text-align: left;
+    height: 100%;
+    z-index: 7;
+    padding-top : 1.5em;
+}
+nav ul li {
+    padding: 10px 10px 10px 24px;
+    width  : 98%;
+    background : rgb(49, 55, 59);
+}
+nav ul li:first-child {
+    margin-top : -.8em;
+    background : transparent;
+}
+nav ul li:first-child:hover {
+    background : transparent;
+    cursor: pointer;
+}
+nav ul li a{
+    width   : 100%;
+    color : white;
+    text-decoration: none;
+}
+nav ul li:hover {
+    background : rgb(65, 73, 78);
+
+}
+/* End Standards */
